@@ -1,0 +1,106 @@
+.decor_main {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 253px;
+  .decor_item_image {
+    position: relative;
+    span.decor_decor {
+      position: absolute;
+      color: #faf9f6;
+      font: 169px proximanova-bold;
+      opacity: 0.5;
+      top: 28%;
+      right: 62%;
+    }
+  }
+
+  h2.subtitle {
+    font: 36px proximanova-bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(0, -100%);
+  }
+  span.line{
+    height: 51px;
+    width: 4px;
+    background-color: #a9946e;
+    position: absolute;
+    right: 0%;
+    top: 150%;
+    transform: translate(32px, 100px);
+
+  }
+  .decor_item_text {
+    text-align: right;
+    padding-right: 200px;
+    position: relative;
+    h2.title {
+      font: 48px 'proximanova-bold';
+      text-transform: uppercase;
+    }
+    h2.title:after {
+      content: "";
+      height: 1px;
+      width: 151px;
+      background-color: #000000;
+      display: inline-block;
+      position: absolute;
+      top: 0.5em;
+      left: 110%;
+
+    }
+    p {
+      font: 15px 'proximanova-bold';
+      color: #464646;
+      position: relative;
+      word-wrap: break-word;
+      line-height: 1.7em;
+    }
+    p:after {
+      content: "";
+      height: 3px;
+      width: 44px;
+      background-color: #bea67c;
+      display: flex;
+      position: absolute;
+      top: 0.75em;
+      left: 110%;
+    }
+    span.decor_d{
+      position: absolute;
+      color: #faf9f9;
+      font: 395px 'proximanova-bold';
+      bottom: 100%;
+      transform: translate(8px, 7px);
+    }
+
+
+    .link_1 {
+      font: 14px proximanova-bold;
+      color: #000000;
+      text-transform: uppercase;
+      display: inline-block;
+      a {
+        background: transparent;
+        outline: none;
+        color: #000000;
+        text-decoration: none;
+
+      }
+      a:after {
+        content: "";
+        height: 2px;
+        width: 44px;
+        background-color: #bea67c;
+        display: flex;
+
+      }
+
+    }
+
+  }
+
+}

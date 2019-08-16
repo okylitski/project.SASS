@@ -1,0 +1,49 @@
+.videos_wooden {
+	overflow: hidden;
+  padding: 202px 0 150px;
+  h2.title{
+    font: 48px proximanova-bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+
+  }
+  span.line {
+    margin-top: 20px;
+    height: 4px;
+    width: 44px;
+    background-color: #bea67c;
+    display: block;
+    margin: 0 auto;
+  }
+  p.subtitle {
+    padding-top: 20px;
+    font: 15px proximanova-regular;
+    letter-spacing: 0.5px;
+    margin: 0 300px;
+    line-height: 1.5em;
+  }
+  .videos_wooden_main {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    .videos_wooden_item{
+      margin: 0 40px;
+
+      span.line {
+
+        height: 1px;
+        width: 25px;
+        background-color: #bea67c;
+        display: block;
+        margin: 20px auto 0;
+      }
+      h3.title {
+        margin-top: 15px;
+        font: 16px proximanova-bold;
+      }
+
+
+    }
+  }
+}

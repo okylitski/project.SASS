@@ -1,0 +1,242 @@
+@font-face {
+  font-family: 'proximanova-black';
+  src: url('../fonts/proximanova-black-webfont-webfont.woff2') format('woff2'),
+  url('../fonts/proximanova-black-webfont-webfont.woff') format('woff'),
+  url('../fonts/proximanova-black-webfont-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'proximanova-bold';
+  src: url('../fonts/proximanova-bold-webfont-webfont.woff2') format('woff2'),
+  url('../fonts/proximanova-bold-webfont-webfont.woff') format('woff'),
+  url('../fonts/proximanova-bold-webfont-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'proximanova-extrabld';
+  src: url('../fonts/proximanova-extrabld-webfont-webfont.woff2') format('woff2'),
+  url('../fonts/proximanova-extrabld-webfont-webfont.woff') format('woff'),
+  url('../fonts/proximanova-extrabld-webfont-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'proximanova-light';
+  src: url('../fonts/proximanova-light-webfont-webfont.woff2') format('woff2'),
+  url('../fonts/proximanova-light-webfont-webfont.woff') format('woff'),
+  url('../fonts/proximanova-light-webfont-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'proximanova-regular';
+  src: url('../fonts/proximanova-regular-webfont-webfont.woff2') format('woff2'),
+  url('../fonts/proximanova-regular-webfont-webfont.woff') format('woff'),
+  url('../fonts/proximanova-regular-webfont-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'proximanova-semibold';
+  src: url('../fonts/proximanova-semibold-webfont-webfont.woff2') format('woff2'),
+  url('../fonts/proximanova-semibold-webfont-webfont.woff') format('woff'),
+  url('../fonts/proximanova-semibold-webfont-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'proximanovat-thin';
+  src: url('../fonts/proximanovat-thin-webfont-webfont.woff2') format('woff2'),
+  url('../fonts/proximanovat-thin-webfont-webfont.woff') format('woff'),
+  url('../fonts/proximanovat-thin-webfont-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+.row {
+  font-size: 0;
+  margin: 0 -10px;
+}
+
+.col {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col_1 {
+  width: 8.33333333%;
+}
+
+.col_2 {
+  width: 16.66666667%;
+}
+
+.col_3 {
+  width: 25%;
+}
+
+.col_4 {
+  width: 33.33333333%;
+}
+
+.col_5 {
+  width: 41.66666667%;
+}
+
+.col_6 {
+  width: 50%;
+}
+
+.col_7 {
+  width: 58.33333333%;
+}
+
+.col_8 {
+  width: 66.66666667%;
+}
+
+.col_9 {
+  width: 75%;
+}
+
+.col_10 {
+  width: 83.33333333%;
+}
+
+.col_11 {
+  width: 91.66666667%;
+}
+
+.col_12 {
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .col-md_1 {
+    width: 16.66666667%;
+  }
+
+  .col-md_2 {
+    width: 33.33333333%;
+  }
+
+  .col-md_3 {
+    width: 50%;
+  }
+
+  .col-md_4 {
+    width: 66.66666667%;
+  }
+
+  .col-md_5 {
+    width: 83.33333333%;
+  }
+
+  .col-md_6 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .col-td_1 {
+    width: 8.33333333%;
+  }
+
+  .col-td_2 {
+    width: 16.66666667%;
+  }
+
+  .col-td_3 {
+    width: 25%;
+  }
+
+  .col-td_4 {
+    width: 33.33333333%;
+  }
+
+  .col-td_5 {
+    width: 41.66666667%;
+  }
+
+  .col-td_6 {
+    width: 50%;
+  }
+
+  .col-td_7 {
+    width: 58.33333333%;
+  }
+
+  .col-td_8 {
+    width: 66.66666667%;
+  }
+
+  .col-td_9 {
+    width: 75%;
+  }
+
+  .col-td_10 {
+    width: 83.33333333%;
+  }
+
+  .col-td_11 {
+    width: 91.66666667%;
+  }
+
+  .col-td_12 {
+    width: 100%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.section {
+  font-size: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+}
