@@ -9,51 +9,37 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-<header class="mainscreen_wooden">
-    <div class="menu"><span class="line"><span></span><span></span><span></span></span><span
-            class="text_menu">menu</span></div>
-    <ul class="information_menu">
-        <li class="information"><img src="assets/image/info.png"></li>
-        <li class="language">EN <i class="fas fa-caret-down"></i></li>
-    </ul>
-    <navigation class="navigation">
-          <ul class="navigation_menu">
-            <li class="wooder">wooder</li>
-            <li class="home">home</li>
-            <li class="products">products</li>
-            <li class="about">about</li>
+<div class="mainscreen_wooden">
+    <header>
+        <div class="burger__menu"><i class="fas fa-bars"></i>MENU</div>
+        <ul class="burger__menu--information">
+            <li class="btn information"><img src="assets/image/info.png"></li>
+            <li class="btn language">EN <i class="fas fa-caret-down"></i></li>
         </ul>
-         <!--       <span class="navigation_line"></span>
-             <div class="choice_language">English</div>
-             <div class="information_window">We are a team of professionals in the wood processing and the creation of wooden furniture of the highest class
-             </div>
-             <div class="choice_menu">
-                 <ul>
-                     <li>home</li>
-                     <li>product</li>
-                     <li>galery</li>
-                     <li>about</li>
-                 </ul>
-        </div>-->
-    </navigation>
-    <div>class="mainscreen">
-        <div class="number">
-            <div class="common">
-                <span class="line_common"></span>
-                <span class="choice"><h2>01</h2></span><span class="dot_point"></span><span class="dot_1"></span><span
-                    class="dot_2"></span><span class="dot_3"></span><span class="dot_4"></span>
-            </div>
+        <navigation>
+            <a href="#" class="wooder">wooder</a>
+            <a href="#" class="home">home</a>
+            <a href="#" class="products">products</a>
+            <a href="#" class="about">about</a>
+        </navigation>
+    </header>
+    <section class="mainscreen">
+        <div class="mainscreen__number">
+            <span class="mainscreen__number--line"></span>
+            <span class="mainscreen__number--choice"><h2>01</h2></span><span class="dot_point"></span><span class="dot_1"></span><span
+                class="dot_2"></span><span class="dot_3"></span><span class="dot_4"></span>
         </div>
-        <div class="logowooder">
+        <div class="mainscreen__logowooder">
             <h1>WOODER</h1>
-            <button class="more">Learn more<img class="arrow_more" src="assets/image/more_arrow.png"></button>
-            <div class="mouse"><img src="assets/image/mouse.png"></div>
-            <div class="scroll_arrow"><img src="assets/image/scroll_arrow.png"></div>
-            <div class="scroll"><p>scroll</p></div>
+            <button class="mainscreen__logowooder--more">Learn more<img class="arrow_more" src="assets/image/more_arrow.png"></button>
+            <div class="mainscreen__logowooder--icon"><img src="assets/image/mouse.png"></div>
+            <div class="mainscreen__logowooder--arrow"><img src="assets/image/scroll_arrow.png"></div>
+            <div class="mainscreen__logowooder--scroll">scroll</div>
         </div>
-        <div class="furnituredecor"><span>Furniture</span><span>&</span><span>decor</span></div>
-    </div>
-</header>
+        <div class="mainscreen__furnituredecor"><span>Furniture</span><span>&</span><span>decor</span>
+        </div>
+      </section>
+</div>
 <section class="furniture_wooden">
     <div class="furniture">
         <div class="furniture_main">
@@ -65,7 +51,8 @@
                 <div class="furniture_item_text">
                     <h2 class="title">furniture</h2>
 
-                    <p>Wooder utilizes materials otherwise left behind, rendered useless in their original intent. By
+                    <p>Wooder utilizes materials otherwise left behind, rendered useless in their original intent.
+                        By
                         crea-ting new pieces made of reclaimed barnwood</p>
                     <div class="link_1"><a href="#">Learn more <span
                             style="font-size: 30px; color: #bea67c; vertical-align: sub">&rarr;</span></a></div>
@@ -93,7 +80,8 @@
                     <span class="line"></span>
                     <span class="decor_d">D</span>
                     <h2 class="title">decor</h2>
-                    <p>We make all types of wooden decor as per design given by Architect,Interior designer, contractor
+                    <p>We make all types of wooden decor as per design given by Architect,Interior designer,
+                        contractor
                         which is suitable
                         your premises. </p>
                     <div class="link_1"><a href="#">Learn more <span
@@ -110,7 +98,8 @@
 
         </h2>
         <span class="line"></span>
-        <p class="subtitle">We create unique design objects made of rare wood, specially under the order. Look at the
+        <p class="subtitle">We create unique design objects made of rare wood, specially under the order. Look at
+            the
             short video about our work.</p>
         <div class="videos_wooden_main">
             <div class="videos_wooden_item">
@@ -185,7 +174,8 @@
                      data-aos-offset="0">
                     <h2 class="text-item title">About us</h2>
                     <p class="text-item text">
-                        We are a team of professionals in the wood processing and the creation of wooden furniture of
+                        We are a team of professionals in the wood processing and the creation of wooden furniture
+                        of
                         the
                         highest class
                     </p>
