@@ -192,22 +192,20 @@ div.mainscreen_wooden {
         cursor: pointer;
         margin: 40px 15.5% 0 0;
         padding: 20px 70px;
+
         img {
           margin: 0 0 0 5px;
+          transition: 1s;
         }
       }
-      .mainscreen__logowooder--more:hover img {
+      button.mainscreen__logowooder--more:hover .arrow_more{
         transform: translate(12px, 0);
-        transition: 1s;
-      }
-      .mainscreen__logowooder--more:hover ~ .more__scroll--arrow {
-        transform: translate(0, 12px);
-        transition: 1s;
+
       }
       .mainscreen__logowooder--icon {
         margin: 53px 465px 0 0;
       }
-      .mainscreen__logowooder--arrow{
+      .mainscreen__logowooder--arrow {
         margin: 12px 465px 0 0;
       }
       .mainscreen__logowooder--scroll {
@@ -230,7 +228,17 @@ div.mainscreen_wooden {
         letter-spacing: 2px;
         margin: 0 10px 0;
       }
+      .mainscreen__furnituredecor--line{
+        display: block;
+        border-bottom: 4px solid;
+        width: 63px;
+        color: #bea67c;
+        position: absolute;
+        left: 285%;
+        bottom: 16px;
+      }
     }
+
   }
 }
 
