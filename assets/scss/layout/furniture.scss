@@ -1,10 +1,11 @@
-.furniture_main {
+.furniture__main {
+  overflow: hidden;
   display: flex;
   align-items: center;
   position: relative;
-  padding-top: 77px;
+  margin: 77px 0 0;
 
-  span.furniture_f{
+  span.furniture__main--letterF {
     position: absolute;
     color: #faf9f6;
     font: 395px proximanova-bold;
@@ -14,14 +15,14 @@
 
   }
 
-  h2.subtitle {
+  h2.furniture__main--subtitle {
     font: 36px proximanova-bold;
     text-transform: uppercase;
     position: absolute;
     top: 80%;
     transform: translate(0, -100%);
   }
-  span.line{
+  span.furniture__main--line{
     position: absolute;
     height: 51px;
     width: 4px;
@@ -30,10 +31,11 @@
     left: 2%;
     transform: translate(0px, 91px);
   }
-  .furniture_item_text {
+  .furniture__main--text {
     text-align: left;
     padding-left: 192px;
     position: relative;
+
 
     h2.title {
       font: 48px proximanova-bold;
@@ -57,6 +59,7 @@
       position: relative;
       word-wrap: break-word;
       line-height: 1.7em;
+      width: 50%;
     }
     p:before {
       content: "";
@@ -80,19 +83,22 @@
         text-decoration: none;
       }
     }
-      a:after {
-        content: "";
-        height: 2px;
-        width: 44px;
-        background-color: #bea67c;
-        display: flex;
+    a:after {
+      content: "";
+      height: 2px;
+      width: 44px;
+      background-color: #bea67c;
+      display: flex;
 
-      }
     }
-  .furniture_item_image {
-    position: relative;
-
-    span.furniture_future{
+  }
+  .furniture__main--image {
+        position: relative;
+    img{
+      max-width: 150%;
+      transform: translate(-30%, 0);
+    }
+    span.furniture_future {
       position: absolute;
       color: #faf9f6;
       font: 169px proximanova-bold;
@@ -104,5 +110,5 @@
 
   }
 
-  }
+}
 

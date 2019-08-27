@@ -1,11 +1,11 @@
-.decor_main {
+.decor__main {
   display: flex;
   align-items: center;
   position: relative;
   padding-top: 253px;
-  .decor_item_image {
+  .decor__main--image {
     position: relative;
-    span.decor_decor {
+    span.background {
       position: absolute;
       color: #faf9f6;
       font: 169px proximanova-bold;
@@ -13,6 +13,9 @@
       top: 28%;
       right: 62%;
     }
+    img{
+       max-width: 150%;
+     }
   }
 
   h2.subtitle {
@@ -33,7 +36,7 @@
     transform: translate(32px, 100px);
 
   }
-  .decor_item_text {
+  .decor__main--text {
     text-align: right;
     padding-right: 200px;
     position: relative;
@@ -69,7 +72,7 @@
       top: 0.75em;
       left: 110%;
     }
-    span.decor_d{
+    span.latterD{
       position: absolute;
       color: #faf9f9;
       font: 395px 'proximanova-bold';
@@ -78,7 +81,7 @@
     }
 
 
-    .link_1 {
+    .learn_more {
       font: 14px proximanova-bold;
       color: #000000;
       text-transform: uppercase;
