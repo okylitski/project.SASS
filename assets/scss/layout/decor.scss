@@ -61,6 +61,8 @@
       position: relative;
       word-wrap: break-word;
       line-height: 1.7em;
+      width: 50%;
+      transform: translate(100%, 0);
     }
     p:after {
       content: "";

@@ -14,30 +14,19 @@
     background: rgba(3, 3, 3, .9);
   }
 
-  .container {
-    z-index: 1;
-    position: relative;
 
-    .footer-main {
+
+    .footer__main {
       font-size: 0;
-
-      .footer-item {
+      z-index: 1;
+      position: relative;
+      .footer__main--item{
         font: 15px 'proximanova-bold';
         color: #464646;
         display: inline-block;
         width: 33.3%;
         vertical-align: middle;
         padding: 20px 0;
-
-        &:first-of-type {
-          text-align: left;
-          margin-left: -2px;
-        }
-
-        &:last-of-type {
-          text-align: right;
-        }
-
         &.logo {
           font: 30px 'proximanova-bold';
           color: #ffffff;
@@ -45,30 +34,8 @@
           text-transform: uppercase;
           letter-spacing: .3em;
 
-          .logo-line {
-            position: relative;
-            padding: 21px 0;
-
-            &:before {
-              content: '';
-              display: block;
-              position: absolute;
-              left: 0;
-              right: 0;
-              top: 50%;
-              transform: translateY(-50%);
-              height: 3px;
-              width: 85%;
-              background: #bea67c;
-            }
           }
         }
       }
-
-      .footer-name {
-        color: #7d7d7d;
-        padding-left: 3px;
-      }
     }
-  }
 }
