@@ -203,10 +203,10 @@ div.mainscreen_wooden {
 
       }
       .mainscreen__logowooder--icon {
-        margin: 53px 465px 0 0;
+        margin: 53px 40% 0 0;
       }
       .mainscreen__logowooder--arrow {
-        margin: 12px 465px 0 0;
+        margin: 12px 40% 0 0;
       }
       .mainscreen__logowooder--scroll {
         font-size: 15px;
@@ -241,5 +241,249 @@ div.mainscreen_wooden {
 
   }
 }
+@media screen and (max-width: 1199.98px){
+  div.mainscreen_wooden {
+    background-image: url("../image/mainscreen.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0 0 13%;
+    .burger__menu {
+      display: inline-block;
+      position: absolute;
+      left: 40px;
+      top: 33px;
+      vertical-align: middle;
+      cursor: pointer;
+      font: 15px 'proximanova-bold';
+      color: #6e6e6c;
+      i {
+        font-size: 25px;
+        color: #bea67c;
+        vertical-align: middle;
+        margin: 0 10px 0 0;
+      }
+    }
+    .burger__menu--information {
+      display: inline-block;
+      font: 15px 'proximanova-bold';
+      color: #6e6e6c;
+      position: absolute;
+      left: 91%;
+      top: 30px;
 
+      .information {
+        display: inline-block;
+        vertical-align: middle;
+        cursor: pointer;
+        margin: 0 20px 0 0;
+      }
+      .language {
+        display: inline-block;
+        vertical-align: middle;
+        cursor: pointer;
+
+      }
+
+    }
+    navigation {
+      text-align: left;
+      text-transform: uppercase;
+      font: 15px 'proximanova-bold';
+      color: #6e6e6c;
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      padding: 23px 0 0 0;
+
+      .wooder {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 35px;
+        letter-spacing: 12px;
+        position: relative;
+        margin: 0 0 0 23%;
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .wooder:after {
+        content: "";
+        display: block;
+        border-bottom: 4px solid;
+        width: 63px;
+        color: #bea67c;
+        position: absolute;
+        left: 45px;
+        bottom: 16px;
+      }
+      .about {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 0 0 8.2%;
+        color: #a3a3a3;
+        text-decoration: none;
+      }
+      .products {
+        display: inline-block;
+        vertical-align: middle;
+        color: #a3a3a3;
+        text-decoration: none;
+        margin: 0 0 0 10%;
+      }
+      .home {
+        display: inline-block;
+        vertical-align: middle;
+        color: #a3a3a3;
+        text-decoration: none;
+        margin: 0 0 0 7%;
+      }
+    }
+
+    .mainscreen {
+      font: 15px 'proximanova-bold';
+      text-transform: uppercase;
+      font-size: 50px;
+      width: 100%;
+      color: #bea67c;
+      position: relative;
+      .mainscreen__number {
+        position: absolute;
+        top: -35px;
+        left: 130px;
+        h2 {
+          display: inline-block;
+          transform: rotate(90deg);
+          font-size: 50px;
+          letter-spacing: 8px;
+          color: #c0af91;
+          padding: 60px 0 0 0;
+        }
+        .mainscreen__number--line {
+          display: block;
+          width: 4px;
+          height: 50px;
+          background: #bea67c;
+        }
+        .dot_1 {
+          display: block;
+          width: 10px;
+          height: 10px;
+          background: #bea67c;
+          opacity: 0.2;
+          border-radius: 50%;
+          margin: 42px 0 0 0;
+          cursor: pointer;
+        }
+        .dot_2 {
+          display: block;
+          width: 10px;
+          height: 10px;
+          background: #bea67c;
+          opacity: 0.2;
+          border-radius: 50%;
+          margin: 40px 0 0 0;
+          cursor: pointer;
+        }
+        .dot_3 {
+          display: block;
+          width: 10px;
+          height: 10px;
+          background: #bea67c;
+          opacity: 0.2;
+          border-radius: 50%;
+          margin: 40px 0 0 0;
+          cursor: pointer;
+        }
+        .dot_4 {
+          display: block;
+          width: 10px;
+          height: 10px;
+          background: #bea67c;
+          opacity: 0.2;
+          border-radius: 50%;
+          margin: 40px 0 0 0;
+          cursor: pointer;
+        }
+
+        .dot_point {
+          display: block;
+          width: 10px;
+          height: 10px;
+          background: #bea67c;
+          border-radius: 50%;
+          position: absolute;
+          left: 0px;
+          top: 208px;
+          cursor: pointer;
+        }
+
+      }
+      .mainscreen__logowooder {
+        vertical-align: top;
+        h1 {
+          letter-spacing: 17.5px;
+          font-size: 100px;
+          margin: 208px 0 0 12.5%;
+        }
+        .mainscreen__logowooder--more {
+          outline: none;
+          background: none;
+          border-color: #ffffff;
+          color: #ffffff;
+          box-shadow: none;
+          font: 15px 'proximanova-bold';
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          cursor: pointer;
+          margin: 40px 13% 0 0;
+          padding: 20px 70px;
+
+          img {
+            margin: 0 0 0 5px;
+            transition: 1s;
+          }
+        }
+        button.mainscreen__logowooder--more:hover .arrow_more{
+          transform: translate(12px, 0);
+
+        }
+        .mainscreen__logowooder--icon {
+          margin: 53px 44% 0 0;
+        }
+        .mainscreen__logowooder--arrow {
+          margin: 12px 44% 0 0;
+        }
+        .mainscreen__logowooder--scroll {
+          font-size: 15px;
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          transform: rotate(90deg);
+          color: #ffffff;
+          opacity: 0.2;
+          margin: 45px 44% 0 0;
+        }
+      }
+      .mainscreen__furnituredecor {
+        position: absolute;
+        top: 90px;
+        left: 80.8%;
+        transform: rotate(90deg);
+        span {
+          font-size: 15px;
+          letter-spacing: 2px;
+          margin: 0 10px 0;
+        }
+        .mainscreen__furnituredecor--line{
+          display: block;
+          border-bottom: 4px solid;
+          width: 63px;
+          color: #bea67c;
+          position: absolute;
+          left: 240%;
+          bottom: 16px;
+        }
+      }
+
+    }
+  }
+}
 

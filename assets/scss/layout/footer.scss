@@ -1,5 +1,5 @@
 .footer_wooden {
-	overflow: hidden;
+  overflow: hidden;
   background: url('../image/footer-bg.png') center no-repeat;
   position: relative;
 
@@ -14,28 +14,25 @@
     background: rgba(3, 3, 3, .9);
   }
 
+  .footer__main {
+    font-size: 0;
+    z-index: 1;
+    position: relative;
+    .footer__main--item {
+      font: 15px 'proximanova-bold';
+      color: #464646;
+      display: inline-block;
+      width: 33.3%;
+      vertical-align: middle;
+      padding: 20px 0;
+      &.logo {
+        font: 30px 'proximanova-bold';
+        color: #ffffff;
+        justify-content: center;
+        text-transform: uppercase;
+        letter-spacing: .3em;
 
-
-    .footer__main {
-      font-size: 0;
-      z-index: 1;
-      position: relative;
-      .footer__main--item{
-        font: 15px 'proximanova-bold';
-        color: #464646;
-        display: inline-block;
-        width: 33.3%;
-        vertical-align: middle;
-        padding: 20px 0;
-        &.logo {
-          font: 30px 'proximanova-bold';
-          color: #ffffff;
-          justify-content: center;
-          text-transform: uppercase;
-          letter-spacing: .3em;
-
-          }
-        }
       }
     }
+  }
 }
