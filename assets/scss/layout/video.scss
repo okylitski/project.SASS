@@ -4,16 +4,16 @@
   position: relative;
   padding: 90px 0;
   overflow: hidden;
-
+  background-position: center;
+  background-size: cover;
   .video_player {
     background-image: url("../image/video_player.png");
     background-repeat: no-repeat;
     width: 855px;
     height: 855px;
     position: absolute;
-    left: 705px;
-    top: 45px;
-
+    left: 50%;
+    top: 4%;
     }
   .video__wooden--main {
     display: block;

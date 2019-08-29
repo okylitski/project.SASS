@@ -104,7 +104,7 @@
     }
   }
 }
-/* Medium Devices, Desktops */
+/* Wide Screens */
 @media screen and (max-width: 1099.98px) {
   .about_us_wooden {
     .about__main {
@@ -131,7 +131,7 @@
     }
   }
 }
-/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
 @media screen and (max-width: 818.98px) {
   .about_us_wooden {
     .about__main {
@@ -167,7 +167,8 @@
   }
 }
 
-/* Small Devices */
+
+/* Small Devices, Tablets */
 @media screen and (max-width: 693.98px) {
   .about_us_wooden {
     overflow: hidden;
@@ -190,7 +191,7 @@
   }
 }
 
-/* Extra Small Devices, Phones */
+/* Small Devices */
 @media screen and (max-width: 495px) {
   .about_us_wooden {
     .about__main {
