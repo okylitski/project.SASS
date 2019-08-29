@@ -36,3 +36,14 @@
     }
   }
 }
+
+@media screen and (max-width: 567.98px) {
+
+  .footer_wooden .footer__main .footer__main--item {
+    font: 0px 'proximanova-bold';
+    &.logo {
+      transform: translate(-20%, 0);
+    }
+  }
+}
+

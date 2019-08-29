@@ -104,21 +104,122 @@
     }
   }
 }
+/* Medium Devices, Desktops */
+@media screen and (max-width: 1099.98px) {
+  .about_us_wooden {
+    .about__main {
+      .about__main--img{
+        width: 54%;
+        padding-bottom: calc(54% * 1.0);
+        background: url('../image/about-us.png') center no-repeat;
+        box-shadow: -2px -2px 16px 2px rgba(0, 0, 0, 0.15);
+        margin: 0 0 0 9%;
+      }
 
-@media screen and (max-width: 1024px) {
-  .about_us_wooden .container .about-us-main {
-    width: 100%;
-    padding: 0 12px;
-    display: block;
-
-    .about-us-text {
-      width: 100%;
-      padding: 0 8%;
+      .about__main--text {
+        width: 60%;
+           .text-item {
+          &.text {
+            font: 15px/1.6 'proximanova-bold';
+            color: #464646;
+            position: relative;
+            padding-top: 17px;
+            letter-spacing: .017em;
+          }
+        }
+      }
     }
+  }
+}
+/* Small Devices, Tablets */
+@media screen and (max-width: 818.98px) {
+  .about_us_wooden {
+    .about__main {
+      .about__main--img{
+        width: 69%;
+        padding-bottom: calc(54% * 1.0);
+        background: url('../image/about-us.png') center no-repeat;
+        box-shadow: -2px -2px 16px 2px rgba(0, 0, 0, 0.15);
+        margin: 0 0 0 9%;
+      }
+      .about__main--text {
+        width: 60%;
+        .text-item {
+          &.text {
+            font: 14px/1.6 'proximanova-bold';
+            color: #464646;
+            position: relative;
+            padding-top: 17px;
+            letter-spacing: .017em;
+          }
+          &.more {
+            font: 14px 'proximanova-bold';
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            display: block;
+            padding-top: 20px;
+            position: relative;
 
-    .about-us-img {
-      width: 100%;
-      padding-bottom: calc(100% * 0.67);
+          }
+        }
+      }
     }
+  }
+}
+
+/* Small Devices */
+@media screen and (max-width: 693.98px) {
+  .about_us_wooden {
+    overflow: hidden;
+    padding: 124px 0;
+    background: #ffffff;
+
+    .about__main {
+
+      .about__main--img{
+        width: 69%;
+        padding-bottom: calc(89% * 1.0);
+        background: url('../image/about-us.png') center no-repeat;
+      }
+
+      .about__main--text {
+        width: 60%;
+        padding: 0 12% 2% 8%;
+      }
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media screen and (max-width: 495px) {
+  .about_us_wooden {
+    .about__main {
+       .about__main--img{
+   display: none;
+      }
+
+      .about__main--text {
+        width: 76%;
+        text-align: left;
+        padding: 0 0% 2% 8%;
+        .text-item {
+          &.title {
+            &:before {
+               display: none;
+            }
+          }
+          &.text {
+
+            &:before {
+              display: none;
+            }
+          }
+        }
+
+      }
+    }
+  }
+.more-arrow {
+    display: none;
   }
 }

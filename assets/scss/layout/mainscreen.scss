@@ -589,9 +589,7 @@ div.mainscreen_wooden {
           margin: 90px 0 0 6.5%;
         }
         .mainscreen__logowooder--more {
-          font: 10px 'proximanova-bold';
-          margin: 20px 25.5% 0 0;
-          padding: 12px 40px;
+       display: none;
 
           img {
             display: none;
@@ -618,10 +616,6 @@ div.mainscreen_wooden {
       .mainscreen__logowooder {
         h1 {
           font-size: 40px;
-        }
-        .mainscreen__logowooder--more {
-          margin: 20px 25.5% 0 0;
-          padding: 8px 30px;
         }
       }
     }

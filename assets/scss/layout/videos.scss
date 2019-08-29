@@ -1,7 +1,7 @@
 .videos_wooden {
-	overflow: hidden;
+  overflow: hidden;
   padding: 202px 0 150px;
-  h2.title{
+  h2.title {
     font: 48px proximanova-bold;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -27,7 +27,7 @@
     padding-top: 80px;
     display: flex;
     justify-content: center;
-    .videos_wooden__main--item{
+    .videos_wooden__main--item {
       margin: 0 40px;
 
       span.line {
@@ -42,8 +42,97 @@
         margin-top: 15px;
         font: 16px proximanova-bold;
       }
+    }
+  }
+}
 
+/* Wide Screens */
+@media screen and (max-width: 1100.98px) {
+  .videos_wooden {
+    overflow: hidden;
+    padding: 20px 0 150px;
+  }
+}
 
+/* Medium Devices, Desktops */
+@media screen and (max-width: 991.98px) {
+  .videos_wooden {
+    .videos_wooden__main {
+      .videos_wooden__main--item {
+        margin: 0 5px;
+      }
+    }
+  }
+}
+
+/* Small Devices, Tablets */
+@media screen and (max-width: 870.98px) {
+  .videos_wooden {
+    overflow: hidden;
+    padding: 20px 0 150px;
+    p.subtitle {
+      padding-top: 20px;
+      font: 15px proximanova-regular;
+      letter-spacing: 0.5px;
+      margin: 0 100px;
+      line-height: 1.5em;
+    }
+    .videos_wooden__main {
+      display: flex;
+      flex-direction: column;
+      .videos_wooden__main--item {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+
+}
+
+/* Small Devices */
+@media screen and (max-width: 667.98px) {
+  .videos_wooden {
+    overflow: hidden;
+    padding: 50px 0 100px;
+    p.subtitle {
+      padding-top: 20px;
+      font: 14px proximanova-regular;
+      letter-spacing: 0.5px;
+      margin: 0 100px;
+      line-height: 1.5em;
+    }
+    h2.title {
+      font: 40px proximanova-bold;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      padding-bottom: 20px;
+
+    }
+   }
+}
+/* Extra Small Devices */
+@media screen and (max-width: 567.98px) {
+  .videos_wooden {
+    overflow: hidden;
+    padding: 70px 0 80px;
+    .videos_wooden__main {
+      padding-top: 40px;
+      display: flex;
+      justify-content: center;
+      p.subtitle {
+        padding-top: 20px;
+        font: 14px proximanova-regular;
+        letter-spacing: 0.5px;
+        margin: 0 50px;
+        line-height: 1.5em;
+      }
+      h2.title {
+        font: 40px proximanova-bold;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        padding-bottom: 20px;
+
+      }
     }
   }
 }
