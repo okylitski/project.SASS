@@ -1,12 +1,31 @@
 # WOODER
-A simple task list application developed in HTML, CSS, JavaScript and jQuery.<br>
-To launch the application, follow the link - https://github.com/okylitski/project.SASS.git<br>
+The project created using HTML, SCSS, JavaScript and jQuery.<br>
+To launch the page, follow the link - https://github.com/okylitski/project.SASS.git<br>
+<br>
 For Сomputer<br>
+<br>
+<br>
+<br>
 <img src="/assets/image/Tablet.gif" alt="GIF" style="max-width:100%"><br>
+<br>
+<br>
+<br>
 For Tablet<br>
+<br>
+<br>
+<br>
 <img src="/assets/image/pad.gif" alt="GIF" style="max-width:100%"><br>
+<br>
+<br>
+<br>
 For mobile<br>
+<br>
+<br>
+<br>
 <img src="/assets/image/mob.gif" alt="GIF" style="max-width:100%"><br>
+<br>
+<br>
+<br>
 For You!<br>
 
 
