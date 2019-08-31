@@ -14,7 +14,7 @@ For Tablet<br>
 <br>
 <br>
 <br>
-<img src="/assets/image/pad.gif" alt="GIF" style="max-width:100%"><br>
+<p align = "center"><img src="/assets/image/pad.gif" alt="GIF" style="max-width:100%"></p><br>
 <br>
 <br>
 <br>
@@ -22,7 +22,7 @@ For mobile<br>
 <br>
 <br>
 <br>
-<img src="/assets/image/mob.gif" alt="GIF" style="max-width:100%"><br>
+<p align = "center"><img src="/assets/image/mob.gif" alt="GIF" style="max-width:100%"></p><br>
 <br>
 <br>
 <br>
