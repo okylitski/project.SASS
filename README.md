@@ -2,8 +2,8 @@
 A simple task list application developed in HTML, CSS, JavaScript and jQuery.<br>
 To launch the application, follow the link - https://github.com/okylitski/project.SASS.git
 <img src="/assets/image/Tablet.gif" alt="GIF" style="max-width:100%">
-<img src="/assets/image/pad.gif" alt="GIF" style="max-width:80%">
-<img src="/assets/image/mob.gif" alt="GIF" style="max-width:50%">
+<img src="/assets/image/pad.gif" alt="GIF" style="max-width:100%">
+<img src="/assets/image/mob.gif" alt="GIF" style="max-width:100%">
 
 
 # Description
