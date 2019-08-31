@@ -2,7 +2,7 @@
 The project created using HTML, SCSS, JavaScript and jQuery.<br>
 To launch the page, follow the link - https://github.com/okylitski/project.SASS.git<br>
 <br>
-For Сomputer<br>
+<p align = "center">For Сomputer</p><br>
 <br>
 <br>
 <br>
@@ -10,7 +10,7 @@ For Сomputer<br>
 <br>
 <br>
 <br>
-For Tablet<br>
+<p align = "center">For Tablet</p><br>
 <br>
 <br>
 <br>
@@ -18,7 +18,7 @@ For Tablet<br>
 <br>
 <br>
 <br>
-For mobile<br>
+<p align = "center">For mobile</p><br>
 <br>
 <br>
 <br>
@@ -26,7 +26,7 @@ For mobile<br>
 <br>
 <br>
 <br>
-For You!<br>
+<p align = "center">For You!</p><br>
 
 
 # Description
