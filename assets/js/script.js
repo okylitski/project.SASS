@@ -20,23 +20,37 @@ AOS.init({
     anchorPlacement: 'top', // defines which position of the element regarding to window should trigger the animation
 
 });
+function wooder() {
+    var btnInformation = document.querySelector('.burger__menu--information .information');
+    var btnLanguage = document.querySelector('.burger__menu--information .language');
+    var information_window = document.querySelector('.information__window');
+    var choice_language  = document.querySelector('.language__choice');
+    var products = document.querySelector('.products');
+     event()
+    function event() {
+        btnInformation.addEventListener('click', information)
+        btnLanguage.addEventListener('click', languageInformation);
+    }
+    function information(e) {
 
-var elem = document.querySelector('.dot_point');
-var dot_1 = document.querySelector('.dot_1');
-var dot_2 = document.querySelector('.dot_2');
-var dot_3 = document.querySelector('.dot_3');
-var dot_4 = document.querySelector('.dot_4');
-var choice = document.querySelector('.choice h2');
-var navigation_line = document.querySelector('.navigation_line');
-var products = document.querySelector('.products');
-var home = document.querySelector('.home');
-var about = document.querySelector('.about');
-var language = document.querySelector('.language');
-var choice_language = document.querySelector('.choice_language');
-var information = document.querySelector('.information');
-var information_window = document.querySelector('.information_window');
-var menu = document.querySelector('.menu');
-var choice_menu = document.querySelector('.choice_menu');
-var mainscreen_wooden = document.querySelector('.mainscreen_wooden');
+        information_window.classList.toggle("show")
+        setTimeout(function () {
+            information_window.classList.remove("show");
+        }, 10000);
+     }
+    function languageInformation() {
+        choice_language.classList.toggle("show")
+        setTimeout(function () {
+            choice_language.classList.remove("show");
+        }, 10000);
+    }
 
+}
+wooder()
 
+$(function(){
+    $('.products').click(function(){$('html,body').animate({scrollTop:$('.furniture_wooden').offset().top}, 1000);});
+});
+$(function(){
+    $('.about').click(function(){$('html,body').animate({scrollTop:$('.about_us_wooden').offset().top}, 1000);});
+});
