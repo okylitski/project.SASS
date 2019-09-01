@@ -1,6 +1,6 @@
 # WOODER
 The project created using HTML, SCSS, JavaScript and jQuery.<br>
-To launch the page, follow the link - https://github.com/okylitski/project.SASS.git<br>
+To launch the page, follow the link - https://okylitski.github.io/project.SASS/<br>
 <br>
 <p align = "center">For Сomputer</p><br>
 <br>
