@@ -35,6 +35,8 @@ To launch the page, follow the link - https://github.com/okylitski/project.SASS.
 - Popup windows;
 - Block animation;
 - The project has adaptation for different devices;
+- The project has adaptation for different devices;
+- Code comments
 
 In order to get the web page for review, editing or testing, clone project:
 ```
